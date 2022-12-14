@@ -1,0 +1,55 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  width: 100%;
+  margin-top: 50px;
+  padding: 0;
+}
+
+textarea {
+  width: 696px;
+  max-height: 30px;
+  resize: none;
+  padding-top: 9px;
+  font-size: 20px;
+  text-align: left;
+  vertical-align: bottom;
+  background-color: gray;
+  border: none;
+  outline: 1px solid black;
+}
+
+textarea:focus {
+  border: none;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.record {
+  display: flex;
+  flex-direction: column-reverse;
+  overflow: auto;
+  width: 700px;
+  max-width: 700px;
+  height: 500px;
+  font-size: 20px;
+  background-color: gray;
+}
+
+span {
+  display: block;
+  word-wrap: break-word;
+}
